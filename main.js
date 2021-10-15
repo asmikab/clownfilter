@@ -51,3 +51,10 @@ function draw(){
   image(clownhair,xear,year,190,150);
 
 }
+
+function captureimg(){
+
+  save("clown.png");
+  
+
+}
