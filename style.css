@@ -1,0 +1,23 @@
+body{
+    
+   text-align: center;
+
+}
+
+canvas{
+
+border-width: 5px;
+border-color:black;
+border-style:solid ;
+border-radius: 20px;
+
+animation-name: asmika;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes asmika{
+ from{box-shadow:1px 1px 50px rgb(255, 0, 166);}
+ to{box-shadow:1px 1px 40px rgb(0, 0, 255);}
+
+}
